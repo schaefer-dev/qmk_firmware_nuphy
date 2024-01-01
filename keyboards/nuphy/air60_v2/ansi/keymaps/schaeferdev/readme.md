@@ -1,19 +1,21 @@
-c# NuPhy Air75 V2
+c# NuPhy Air60 V2 my layout
 
-*NuPhy Air75 V2 is a standard 84 key keyboard.*
-![NuPhy Air75 V2](https://bit.ly/486pSkN)
+*NuPhy Air60 V2 is a standard 64 key keyboard.*
+![NuPhy Air60 V2](https://bit.ly/48qfjbS)
 
 * Keyboard Maintainer: [nuphy](https://github.com/nuphy-src)
-* Hardware Supported: NuPhy Air75 V2 PCB
+* Hardware Supported: NuPhy Air60 V2 PCB
 * Hardware Availability: Private
 
 Make example for this keyboard (after setting up your build environment):
 
-    make nuphy/air75_v2/ansi:default
+    qmk compile -kb nuphy/air60_v2/ansi -km schaeferdev
+
+    make nuphy/air60_v2/ansi:schaeferdev
 
 Flashing example for this keyboard:
 
-    make nuphy/air75_v2/ansi:default:flash
+    make nuphy/air60_v2/ansi:schaeferdev:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
